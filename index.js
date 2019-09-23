@@ -10,7 +10,6 @@ const twitch = "https://twitch.tv/gotaga" // mettez un lien twitch
 // ====================================
 
 const discord = require("selfbot.js")
-const request = require("request")
 const client = new discord.Client()
 client.login(token)
 
