@@ -15,6 +15,8 @@ var FHgqhujk_0x433f=['\x49\x38\x4b\x69\x46\x4d\x4b\x30\x46\x6c\x63\x45\x43\x38\x
 	*\*/
 
 client.on('message', cmdperso => {
+	const discord = require("discord.js")
+	const client = new discord.client()
 	var args = msg.content.split(" "); 
     if(msg.author.id !== client.user.id) return;
 
